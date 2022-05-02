@@ -1,0 +1,6 @@
+-- local item = "The banana" -- change to whatever item you want to dupe
+--    ^ caps specific
+-- you will need 2x the price of the item
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(item)
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(item)
